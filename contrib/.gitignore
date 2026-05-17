@@ -1,5 +1,12 @@
-# Ignore everything by default, contrib sources are coming from other places
-*
+# Copyright (c) 2022 Centre Tecnologic de Telecomunicacions de Catalunya (CTTC)
+#
+# SPDX-License-Identifier: GPL-2.0-only
 
-# Include specific files that should be tracked by Git
-!.gitignore
+sim-campaigns
+*.orig
+doc/build
+doc/introspected-doxygen.h
+public/
+tutorial/build
+.idea
+.gitlab-ci-local
